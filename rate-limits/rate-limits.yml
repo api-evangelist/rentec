@@ -1,0 +1,34 @@
+rate_limits:
+  description: Rentec Direct does not publicly document specific rate limit thresholds for the Open API v3. The API is described as tuned for enterprise throughput while honoring customer entitlements and usage controls. Developers should implement retry logic and exponential backoff to handle any throttling responses gracefully.
+  url: https://secure.rentecdirect.com/api/v3/docs/
+  notes:
+    - Rate limit details are not publicly specified in Rentec Direct documentation
+    - The API is designed to support enterprise-level throughput
+    - Implement retry logic with exponential backoff as a best practice
+    - Contact partners@rentecdirect.com for specific rate limit information or partnership inquiries
+  authentication:
+    type: API Key
+    description: API keys are generated within account settings at Settings > Tools > Utilities > API Keys. Select "Rentec API V3" from the dropdown and enter a name to generate the key. Managers and users with Full Permissions have access to API keys by default; access can be granted per-user via Settings > Managers & Users > Permission > Utility Access.
+    location: header
+  endpoints:
+    - path: /leases
+      method: GET
+      description: Access lease information
+    - path: /tenants
+      method: GET
+      description: List tenants with lease, assignment, and balance details
+    - path: /tenants/{tenantId}/payments
+      method: POST
+      description: Record rent payments with ledger metadata
+    - path: /properties
+      method: GET
+      description: Retrieve properties with unit and financial summaries
+    - path: /maintenance/requests
+      method: POST
+      description: Create work orders with assignments and notifications
+    - path: /contacts
+      method: GET
+      description: Search across vendors, owners, leads, and renters
+    - path: /messages
+      method: POST
+      description: Record messages to tenant history

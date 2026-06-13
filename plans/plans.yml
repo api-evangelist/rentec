@@ -1,0 +1,50 @@
+plans:
+  - name: Rentec Pro
+    description: Designed for landlords and real estate investors who self-manage their properties. Includes full accounting, free online rent payments (ACH), tenant portal and mobile app, tenant screening integration, maintenance request tracking, and online property listings. The Open API v3 is included at no additional cost.
+    url: https://www.rentecdirect.com/pricing
+    price: 55.00
+    currency: USD
+    unit: month
+    features:
+      - Full property and tenant accounting
+      - Free online rent payments via ACH
+      - Tenant portal and mobile app
+      - Tenant screening integration
+      - Maintenance request tracking
+      - Online property listings
+      - Open API v3 access (no extra charge)
+      - Zapier integration
+    limits:
+      units: 2500
+      api_access: true
+
+  - name: Rentec PM
+    description: Designed for property managers who manage properties on behalf of owner clients and need trust accounting support. Includes everything in Pro plus trust account management, owner portal, ACH disbursements to owners, and marketing and maintenance manager tools. The Open API v3 is included at no additional cost.
+    url: https://www.rentecdirect.com/pricing
+    price: 65.00
+    currency: USD
+    unit: month
+    features:
+      - All Rentec Pro features
+      - Trust account management and reporting
+      - Owner portal and ACH disbursements
+      - Marketing and maintenance manager tools
+      - Open API v3 access (no extra charge)
+    limits:
+      units: 2500
+      api_access: true
+
+  - name: Enterprise
+    description: For portfolios exceeding 2,500 units. Contact Rentec Direct sales for custom pricing and volume-based rates.
+    url: https://www.rentecdirect.com/pricing
+    price: custom
+    currency: USD
+    unit: month
+    features:
+      - All Rentec PM features
+      - Custom pricing based on unit count
+      - Dedicated support
+      - Open API v3 access
+    limits:
+      units: unlimited
+      api_access: true

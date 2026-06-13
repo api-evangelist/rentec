@@ -1,0 +1,66 @@
+aid: rentec
+name: Rentec Direct
+description: Rentec Direct provides property management software with a REST API for managing rental properties, tenant screening, online payments, maintenance requests, and financial reporting. The Open API (v3) is available to all Pro and PM plan subscribers at no additional cost, enabling workflow automation, data analysis, and custom application development.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Property Management
+  - Real Estate
+  - Rental
+  - Tenant Screening
+  - Payments
+  - Maintenance
+  - Financial Reporting
+apis:
+  - aid: rentec:rentec-direct-api
+    name: Rentec Direct Open API
+    description: The Rentec Direct Open API v3 provides RESTful access to property management data including properties, tenants, leases, payments, maintenance requests, contacts, and messaging. Available to Pro and PM plan subscribers with API key authentication.
+    humanURL: https://www.rentecdirect.com/details/open-api
+    baseURL: https://secure.rentecdirect.com/api/v3
+    tags:
+      - Property Management
+      - Tenants
+      - Leases
+      - Payments
+      - Maintenance
+      - Contacts
+    properties:
+      - type: Documentation
+        url: https://www.rentecdirect.com/details/open-api
+      - type: OpenAPI
+        url: https://secure.rentecdirect.com/api/v3/docs/
+      - type: GettingStarted
+        url: https://help.rentecdirect.com/article/907-open-api-getting-started-guide
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/finops/finops.yml
+common:
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/plans/plans.yml
+  - type: RateLimits
+    url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/rate-limits/rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/finops/finops.yml
+  - type: Pricing
+    url: https://www.rentecdirect.com/pricing
+  - type: Blog
+    url: https://www.rentecdirect.com/blog/
+  - type: Status
+    url: https://status.rentecdirect.com/
+  - type: TermsOfService
+    url: https://www.rentecdirect.com/terms-of-service/
+  - type: PrivacyPolicy
+    url: https://www.rentecdirect.com/privacy-policy/
+  - type: Support
+    url: https://help.rentecdirect.com/
+  - type: Contact
+    url: https://www.rentecdirect.com/contact/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

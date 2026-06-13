@@ -1,0 +1,55 @@
+finops:
+  description: Financial operations details for Rentec Direct API access. The Open API v3 is bundled with the Pro and PM subscription plans at no additional cost. Costs are driven by the subscription plan tier and the number of units managed. Additional transactional fees apply for certain platform features.
+  url: https://www.rentecdirect.com/pricing
+
+  subscription_costs:
+    - plan: Rentec Pro
+      base_price: 55.00
+      currency: USD
+      billing_cycle: monthly
+      annual_discount: true
+      api_included: true
+      per_unit_scaling: true
+      notes: Price scales with number of units managed beyond base threshold. API access included at no extra charge.
+
+    - plan: Rentec PM
+      base_price: 65.00
+      currency: USD
+      billing_cycle: monthly
+      annual_discount: true
+      api_included: true
+      per_unit_scaling: true
+      notes: Includes trust accounting features for property managers. API access included at no extra charge.
+
+  transactional_fees:
+    - name: Tenant Screening
+      description: Per-applicant screening packages with credit, criminal, and eviction history checks
+      price_range: "$10.00 - $18.00"
+      currency: USD
+      unit: per applicant
+
+    - name: Cash Payment Network
+      description: Accept cash payments at retail locations via PayNearMe or similar networks
+      setup_fee: 200.00
+      per_transaction_fee: 4.99
+      currency: USD
+      minimum_transactions: 10
+      unit: per transaction
+
+    - name: Credit Card Processing
+      description: Percentage-based fee for online credit/debit card rent payments
+      rate: 2.95
+      rate_type: percentage
+      currency: USD
+      unit: per transaction
+
+  cost_model:
+    type: subscription_plus_usage
+    notes:
+      - No setup fees for subscription plans
+      - No term commitments required
+      - No training costs
+      - API access is bundled with Pro and PM plans — no separate API fee
+      - Pricing scales with portfolio size (number of units)
+      - Contact sales for portfolios exceeding 2,500 units
+    contact: https://www.rentecdirect.com/contact/
