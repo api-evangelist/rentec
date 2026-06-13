@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "@id": "https://secure.rentecdirect.com/api/v3",
+  "name": "Rentec Direct Open API",
+  "description": "The Rentec Direct Open API v3 provides RESTful access to property management data including properties, tenants, leases, payments, maintenance requests, contacts, and messaging. Available to Pro and PM plan subscribers with API key authentication.",
+  "url": "https://www.rentecdirect.com/details/open-api",
+  "documentation": "https://secure.rentecdirect.com/api/v3/docs/",
+  "termsOfService": "https://www.rentecdirect.com/terms-of-service/",
+  "provider": {
+    "@type": "Organization",
+    "name": "Rentec Direct",
+    "url": "https://www.rentecdirect.com"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://secure.rentecdirect.com/api/v3",
+    "serviceType": "REST API"
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "Included with Pro and PM plan subscriptions at no additional cost.",
+    "url": "https://www.rentecdirect.com/pricing"
+  },
+  "applicationCategory": "Property Management Software",
+  "featureList": [
+    "Property management",
+    "Tenant management",
+    "Lease management",
+    "Payment processing",
+    "Maintenance request tracking",
+    "Contact management",
+    "Messaging",
+    "Financial reporting",
+    "Tenant screening"
+  ],
+  "serviceType": "REST API",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "apiVersion",
+      "value": "v3"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "authenticationMethod",
+      "value": "API Key"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "baseURL",
+      "value": "https://secure.rentecdirect.com/api/v3"
+    }
+  ]
+}

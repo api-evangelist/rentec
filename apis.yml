@@ -61,6 +61,12 @@ common:
     url: https://help.rentecdirect.com/
   - type: Contact
     url: https://www.rentecdirect.com/contact/
+  - type: BlogPosts
+    url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/blogs/blogs.json
+  - type: JsonLd
+    url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/json-ld/rentec-direct.json
+  - type: JsonLd
+    url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/json-ld/rentec-direct-api.json
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
