@@ -4,7 +4,7 @@
   "last_fetched": "2026-06-13",
   "posts": [
     {
-      "title": "Who Owns the Meteorite on My Rental Property? – Video",
+      "title": "Who Owns the Meteorite on My Rental Property? \u2013 Video",
       "url": "https://www.rentecdirect.com/blog/who-owns-the-meteorite-on-my-rental-property-video/",
       "date": "2026-06-12",
       "description": "Unusual property ownership questions answered via video."
@@ -64,10 +64,26 @@
       "description": "Instructions for advertising rentals on social media platforms."
     },
     {
-      "title": "Top Five Tips for New Landlords – Video",
+      "title": "Top Five Tips for New Landlords \u2013 Video",
       "url": "https://www.rentecdirect.com/blog/five-tips-for-new-landlords/",
       "date": "2026-05-15",
       "description": "Video content introducing fundamental landlord practices."
     }
-  ]
+  ],
+  "repo": "rentec",
+  "feeds": [
+    {
+      "source": "https://www.rentecdirect.com/pricing",
+      "feed_url": "https://www.rentecdirect.com/pricing",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.rentecdirect.com/contact/",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
