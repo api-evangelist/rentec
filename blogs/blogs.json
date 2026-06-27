@@ -1,77 +1,13 @@
 {
-  "provider": "rentec",
-  "blog_url": "https://www.rentecdirect.com/blog/",
-  "last_fetched": "2026-06-13",
-  "posts": [
-    {
-      "title": "Who Owns the Meteorite on My Rental Property? \u2013 Video",
-      "url": "https://www.rentecdirect.com/blog/who-owns-the-meteorite-on-my-rental-property-video/",
-      "date": "2026-06-12",
-      "description": "Unusual property ownership questions answered via video."
-    },
-    {
-      "title": "How to Prepare Your Rentals for Heat Waves and Drought Conditions",
-      "url": "https://www.rentecdirect.com/blog/prepare-rentals-for-heat-waves-and-drought/",
-      "date": "2026-06-11",
-      "description": "Preparation strategies addressing climate-related property challenges."
-    },
-    {
-      "title": "What to Do About Lease Violations as a Renter",
-      "url": "https://www.rentecdirect.com/blog/lease-violations-as-a-renter/",
-      "date": "2026-06-10",
-      "description": "Tenant guidance on handling lease agreement breaches."
-    },
-    {
-      "title": "Pool Safety Tips For Your Rental Property: Infographic",
-      "url": "https://www.rentecdirect.com/blog/pool-safety-tips-infographic/",
-      "date": "2026-06-09",
-      "description": "Guidance on maintaining safe pool conditions for rental properties."
-    },
-    {
-      "title": "Do I Need Multiple Bank Accounts as a Landlord or Property Manager?",
-      "url": "https://www.rentecdirect.com/blog/multiple-bank-accounts-landlord-or-property-manager/",
-      "date": "2026-06-08",
-      "description": "Financial organization recommendations for property professionals."
-    },
-    {
-      "title": "Father's Day Resident Event Ideas",
-      "url": "https://www.rentecdirect.com/blog/fathers-day-resident-event-ideas/",
-      "date": "2026-06-05",
-      "description": "Community engagement activities for tenant populations."
-    },
-    {
-      "title": "Summer Maintenance for Your Rental Property",
-      "url": "https://www.rentecdirect.com/blog/ready-for-summer/",
-      "date": "2026-06-04",
-      "description": "Seasonal upkeep tasks to protect property and tenant safety."
-    },
-    {
-      "title": "HUD Has Changed Its ESA Guidelines | What it Means for You",
-      "url": "https://www.rentecdirect.com/blog/new-hud-esa-guidelines/",
-      "date": "2026-05-28",
-      "description": "Updates to emotional support animal enforcement policies."
-    },
-    {
-      "title": "Military Renters and Landlords: Tips for Renting",
-      "url": "https://www.rentecdirect.com/blog/military-service-members-leasing-buying-renting-property/",
-      "date": "2026-05-25",
-      "description": "Resources tailored for military service members in rental situations."
-    },
-    {
-      "title": "How to List a Rental Property on Facebook Marketplace",
-      "url": "https://www.rentecdirect.com/blog/how-to-list-a-rental-property-on-facebook-marketplace/",
-      "date": "2026-05-22",
-      "description": "Instructions for advertising rentals on social media platforms."
-    },
-    {
-      "title": "Top Five Tips for New Landlords \u2013 Video",
-      "url": "https://www.rentecdirect.com/blog/five-tips-for-new-landlords/",
-      "date": "2026-05-15",
-      "description": "Video content introducing fundamental landlord practices."
-    }
-  ],
   "repo": "rentec",
   "feeds": [
+    {
+      "source": "https://www.rentecdirect.com/blog/feed/",
+      "feed_url": "https://www.rentecdirect.com/blog/feed/",
+      "title": "",
+      "saved": 5,
+      "method": "feed"
+    },
     {
       "source": "https://www.rentecdirect.com/pricing",
       "feed_url": "https://www.rentecdirect.com/pricing",
@@ -84,6 +20,6 @@
       "error": "HTTPError"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 10
 }
