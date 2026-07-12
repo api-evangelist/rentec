@@ -41,6 +41,8 @@ apis:
       - type: FinOps
         url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/finops/finops.yml
 common:
+  - type: DomainSecurity
+    url: security/rentec-domain-security.yml
   - type: Plans
     url: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/plans/plans.yml
   - type: RateLimits
