@@ -1,6 +1,17 @@
 aid: rentec
 name: Rentec Direct
 description: Rentec Direct provides property management software with a REST API for managing rental properties, tenant screening, online payments, maintenance requests, and financial reporting. The Open API (v3) is available to all Pro and PM plan subscribers at no additional cost, enabling workflow automation, data analysis, and custom application development.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
