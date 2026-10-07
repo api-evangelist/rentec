@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 rate_limits:
   description: Rentec Direct does not publicly document specific rate limit thresholds for the Open API v3. The API is described as tuned for enterprise throughput while honoring customer entitlements and usage controls. Developers should implement retry logic and exponential backoff to handle any throttling responses gracefully.
   url: https://secure.rentecdirect.com/api/v3/docs/
