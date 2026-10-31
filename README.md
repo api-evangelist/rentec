@@ -66,47 +66,104 @@
 
 Rentec Direct provides property management software with a REST API for managing rental properties, tenant screening, online payments, maintenance requests, and financial reporting. The Open API (v3) is available to all Pro and PM plan subscribers at no additional cost, enabling workflow automation, data analysis, and custom application development.
 
-## API
+**Areas:** Property Management · Real Estate · Rentals · Tenant Screening · Payments · Maintenance · Financial Reporting
 
-- **Base URL:** https://secure.rentecdirect.com/api/v3
-- **Version:** v3
-- **Authentication:** API Key (generated in account settings)
-- **Format:** JSON
+## Rentec Direct on APIs.io
 
-## Documentation
+Everything profiled for Rentec Direct is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rentec/](https://apis.io/providers/rentec/)** — or go straight to one of the APIs or properties below.
 
-- [Open API Overview](https://www.rentecdirect.com/details/open-api)
-- [API v3 Documentation](https://secure.rentecdirect.com/api/v3/docs/)
-- [Getting Started Guide](https://help.rentecdirect.com/article/907-open-api-getting-started-guide)
+### APIs (1)
 
-## Plans
+- [Rentec Direct Open API](https://apis.io/apis/rentec/rentec-direct-api/) — The Rentec Direct Open API v3 provides RESTful access to property management data including properties, tenants, leases, payments, maintenance requests,…
 
-API access is included with all Pro and PM subscription plans:
+### Published properties
 
-| Plan | Price | Target |
-|------|-------|--------|
-| Rentec Pro | $55/month | Landlords and self-managing investors |
-| Rentec PM | $65/month | Property managers with trust accounting needs |
-| Enterprise | Custom | Portfolios over 2,500 units |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-See [plans/plans.yml](plans/plans.yml) for full details.
+#### Security (1)
 
-## Rate Limits
+Authentication, trust centre, and vulnerability disclosure.
 
-Specific rate limit thresholds are not publicly documented. See [rate-limits/rate-limits.yml](rate-limits/rate-limits.yml) for known details and best practices.
+- [Rentec Domain Security](https://apis.io/security/rentec/rentec-domain-security/)
 
-## Financial Operations
+#### Plans and pricing (1)
 
-API access is bundled with subscription plans at no additional cost. Transactional fees apply for tenant screening, cash payments, and credit card processing. See [finops/finops.yml](finops/finops.yml) for details.
+Published plans, tiers and prices.
 
-## Resources
+- [Plans](https://apis.io/plans/rentec/plans/)
 
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/rentec/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/rentec/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rentecdirect.com)
 - [Pricing](https://www.rentecdirect.com/pricing)
-- [Blog / Changelog](https://www.rentecdirect.com/blog/)
-- [Status Page](https://status.rentecdirect.com/)
 - [Support](https://help.rentecdirect.com/)
-- [Contact](https://www.rentecdirect.com/contact/)
+- [Blog](https://www.rentecdirect.com/blog/)
+- [Terms of service](https://www.rentecdirect.com/terms-of-service/)
+- [Privacy policy](https://www.rentecdirect.com/privacy-policy/)
 
-## Maintainer
+## API Evangelist rating
 
-Kin Lane — kin@apievangelist.com
+**Kin Score 19.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 18.4 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rentec/](https://apis.io/providers/rentec/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rentec Direct: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rentec/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
